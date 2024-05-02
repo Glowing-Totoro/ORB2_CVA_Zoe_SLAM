@@ -1,0 +1,10 @@
+               abs_rel        abs     sq_rel       rmse   rmse_log         a1         a2         a3   
+     STAGE1:     0.669      1.889      1.265      1.976      1.107      0.000      0.000      0.000   
+     STAGE2:     0.672      1.894      1.272      1.979      1.116      0.000      0.000      0.000   
+     STAGE3:     0.677      1.908      1.292      1.994      1.134      0.000      0.000      0.000   
+Performance:  1.05 FPS,    948 ms per image.
+Eigen et. al (delta <1.25, <1.25**2, <1.25**3): 0.0 6.510416824312415e-06 6.673177995253354e-05
+
+Paste last line into Google Sheets
+                                              abs_rel        abs     sq_rel       rmse   rmse_log         a1         a2         a3      width     height      d_min      d_max       seed
+pretrained/ablation/abl03_view_aggregation     0.6771     1.9082     1.2923     1.9936     1.1335     0.0000     0.0000     0.0000        640        480     0.0100    10.0000          1
